@@ -1,0 +1,74 @@
+# Python specific
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyz
+*.pyw
+*.py~  # Editor backup files
+
+# Virtual environments
+venv/
+env/
+*.env
+
+# IDE/Editor specific
+.vscode/
+.idea/
+*.code-workspace
+
+# Build artifacts and logs
+build/
+dist/
+logs/
+
+# Environment-specific files
+*.secret
+*.key
+*.pem
+
+# Miscellaneous
+*.log
+*.sqlite3
+*.db
+*.csv
+*.xlsx
+*.xls
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.mp3
+*.mp4
+*.zip
+*.gz
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+*.dmg
+*.exe
+*.dll
+*.obj
+*.o
+*.a
+*.so
+*.lib
+*.dylib
+*.class
+
+# Local development environment files
+.env.local
+.env.dev
+.env.prod
+.env.testing
+
+# Ignore Jupyter notebook checkpoints (optional)
+.ipynb_checkpoints/
+
+# Ignore pipenv-generated files (if using pipenv)
+Pipfile.lock
+
+# Add any other project-specific files or directories to ignore below this line
